@@ -1,0 +1,23 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "A command line application that dynamically generates a README file from a user's input.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eunahk92/Readme-Generator.git"
+  },
+  "author": "Eunah Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eunahk92/Readme-Generator/issues"
+  },
+  "homepage": "https://github.com/eunahk92/Readme-Generator#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.1.0"
+  }
+}
