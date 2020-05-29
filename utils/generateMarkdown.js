@@ -1,53 +1,48 @@
 generateMarkdown = (answers) => {
-  const { 
-    title, 
-    description, 
-    url,
-    userStoryRole,
-    userStoryGoal,
-    userStoryReason,
-    installation,
-    usage,
-    contribution,
-    test, 
-    license
-  } = answers;
+  const { title, description, url, userStoryRole, userStoryGoal, userStoryReason, installation, usage, contribution, test, license, username, email } = answers;
   
   return `
-    # ${title}
+  # ${title}
 
-    ## Description
-    ${description}
+  [![GitHub license](https://img.shields.io/github/license/eunahk92/Readme-Generator)](${url})
+  
+  ## Description
+  ${description}
 
-    ### Link to project
-    ${url}
+  ## User Story
+  \`\`\`
+  AS A ${userStoryRole}
+  I WANT ${userStoryGoal}
+  SO THAT ${userStoryReason}
+  \`\`\`
+  
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contribution](#contribution)
+  * [Tests](#tests)
+  * [License](#license)
+  * [Questions](#questions)
+  
+  ## Installation
+  \`\`\` ${installation} \`\`\`
+  
+  ## Usage
+  ${usage}
+  
+  ## Contribution
+  ${contribution}
+  
+  ## Tests
+  \`\`\` ${test} \`\`\`
+  
+  ## License
+  ${license}
 
-    \```
-    AS A ${userStoryRole}
-    I WANT ${userStoryGoal}
-    SO THAT ${userStoryReason}
-    \```
+  ## Questions
+  If you have any questions about the repo, open an issue or contact [${username}](https://github.com/eunahk92) directly at ${email}.
 
-    ## Table of Contents
-    * [Installation](#installation)
-    * [License](#license)
-
-    ## Installation
-    ${installation}
-
-    ## Usage
-    ${usage}
-
-    ## Contribution
-    ${contribution}
-
-    ## Tests
-    ${test}
-
-    ## License
-    ${license}
-
-`;
+  `  
 }
 
 module.exports = generateMarkdown;

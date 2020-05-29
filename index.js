@@ -11,7 +11,19 @@ async function init() {
   try {
     const answers = await inquirer.prompt(questions);
     await writeFileAsync("README.md", generateMarkdown(answers));
-    console.log("Successfully wrote to README.MD")
+
+    const { username, title } = answers;
+    const str = `|  Thank you, ${username}. You have successfully wrote a README.MD for your ${title} repo.  |`
+    const strLength = str.length;
+    let border = "-".repeat(strLength);
+
+    const successMsg = `
+      ${border}
+      ${str}
+      ${border}
+    `
+
+    console.log(successMsg);
   }
   catch(err) {
     console.log(err);
