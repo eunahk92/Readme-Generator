@@ -18,7 +18,7 @@ module.exports = {
       {
         type: "input",
         name: "url",
-        message: "What is the URL to your project?"
+        message: "What is the URL to your repo?"
       },
       {
         type: "input",
