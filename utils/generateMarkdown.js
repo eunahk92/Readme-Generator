@@ -4,8 +4,8 @@ generateMarkdown = (answers) => {
   return `
   # ${title}
 
-  [![GitHub license](https://img.shields.io/github/license/eunahk92/Readme-Generator)](${url})
-  
+  [![GitHub license](https://img.shields.io/badge/license-${license}-blue)](${url})
+
   ## Description
   ${description}
 
@@ -25,7 +25,9 @@ generateMarkdown = (answers) => {
   * [Questions](#questions)
   
   ## Installation
-  \`\`\` ${installation} \`\`\`
+  \`\`\`
+  ${installation}
+  \`\`\`
   
   ## Usage
   ${usage}
@@ -34,7 +36,9 @@ generateMarkdown = (answers) => {
   ${contribution}
   
   ## Tests
-  \`\`\` ${test} \`\`\`
+  \`\`\`
+  ${test}
+  \`\`\`
   
   ## License
   ${license}
