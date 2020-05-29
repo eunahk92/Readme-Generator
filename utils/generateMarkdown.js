@@ -1,10 +1,12 @@
 generateMarkdown = (answers) => {
   const { title, description, url, userStoryRole, userStoryGoal, userStoryReason, installation, usage, contribution, test, license, username, email } = answers;
-  
+
+  const badgeLicense = license.replace(/\s/g, '%20'); 
+
   return `
   # ${title}
 
-  [![GitHub license](https://img.shields.io/badge/license-${license}-blue)](${url})
+  [![GitHub license](https://img.shields.io/badge/license-${badgeLicense}-blue)](${url})
 
   ## Description
   ${description}
