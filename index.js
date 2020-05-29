@@ -13,7 +13,7 @@ async function init() {
     await writeFileAsync("README.md", generateMarkdown(answers));
 
     const { username, title } = answers;
-    const str = `|  Thank you, ${username}. You have successfully wrote a README.MD for your ${title} repo.  |`
+    const str = `You have successfully wrote a README.MD for your ${title} repo.`
     const strLength = str.length;
     let border = "-".repeat(strLength);
 
