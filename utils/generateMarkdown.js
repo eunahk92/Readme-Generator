@@ -21,8 +21,8 @@ generateMarkdown = (answers) => {
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contribution](#contribution)
   * [Tests](#tests)
+  * [Contribution](#contribution)
   * [License](#license)
   * [Questions](#questions)
   
@@ -34,13 +34,13 @@ generateMarkdown = (answers) => {
   ## Usage
   Must know: ${usage}
   
-  ## Contribution
-  ${contribution}
-  
   ## Tests
   \`\`\`
   ${test}
   \`\`\`
+    
+  ## Contribution
+  ${contribution}
   
   ## License
   ${license}
