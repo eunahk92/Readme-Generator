@@ -33,9 +33,13 @@
 
   ![](gifs/run_index.gif)
 
-  When successfully finished, you will receive a message and your new README.MD file has been created.
+  When successfully finished, you will receive a message:
 
   ![](gifs/result.gif)
+
+  & Your readme.md file for your repo has been created:
+
+  ![](gifs/readme_created.gif)
   
   ## Tests
   ```

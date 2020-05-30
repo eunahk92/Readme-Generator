@@ -1,5 +1,4 @@
 const inquirer = require("inquirer");
-const dotenv = require("dotenv");
 const fs = require("fs");
 const util = require("util");
 
