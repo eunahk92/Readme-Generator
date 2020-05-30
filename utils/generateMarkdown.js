@@ -32,7 +32,7 @@ generateMarkdown = (answers) => {
   \`\`\`
   
   ## Usage
-  ${usage}
+  Must know: ${usage}
   
   ## Contribution
   ${contribution}
