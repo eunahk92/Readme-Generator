@@ -16,8 +16,8 @@
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contribution](#contribution)
   * [Tests](#tests)
+  * [Contribution](#contribution)
   * [License](#license)
   * [Questions](#questions)
   
@@ -37,13 +37,13 @@
 
   ![](gifs/result.gif)
   
-  ## Contribution
-  Email me
-  
   ## Tests
   ```
   npm test
   ```
+
+  ## Contribution
+  Email me
   
   ## License
   MIT
