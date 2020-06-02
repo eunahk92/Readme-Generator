@@ -10,7 +10,7 @@
   ```
   AS A developer
   I WANT to easily create readme.md files
-  SO THAT it saves other developer's times when writing readme's
+  SO THAT it saves other developer's time when writing readme's
   ```
   
   ## Table of Contents
